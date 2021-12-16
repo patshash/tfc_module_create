@@ -14,9 +14,9 @@ variable "hostname" {
 }
 
 variable "identifier" {
-    description = "A list of all workspaces that have permission to access the state of this workspace"
+    description = "The display identifier for your VCS repository"
 }
 
 variable "display_identifier" {
-    description = "A list of all workspaces that have permission to access the state of this workspace"
+    description = "A reference to your VCS repository"
 }
